@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#register {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-rows: 15% 1fr 30%;
+    background-color: #000010;
+    overflow: hidden;
+}
+
+#logo {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1;
+    justify-content: center;
+}
+
+.titletop {
+    color: #002E62;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#formulaire {
+    margin-top: 100px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+
+    align-self: center;
+}
+
+
+.registerinfo {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 240px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: rgba(46, 63, 95, 0.5);
+
+}
+
+#avatar {
+    height: 86px;
+    background-color: #C4C4C4;
+    width: 86px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.registerpseudo {
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    margin-left: 180px;
+    
+    width: 240px;
+    margin-top: 10px;
+}
+
+footer {
+    grid-column: 3;
+    justify-items: center;
+    justify-items: center;
+    position: fixed;
+    padding-left: 50%;
+    bottom: 0;
+}
+
+.copyright {
+    color: #002E62;
+    padding-right: 120px;
+    bottom: 0;
+    font-size: 12px;
+}
+
+#button-registered {
+    padding-top: 80px;
+}
+
+.button-register{
+background: #001935;
+color: #2E3F5F;
+border-radius: 100px;
+border:none;
+width: 130px;
+height: 40px;
+margin-left: 240px;
+}
+
+.button-back {
+    background: #001935;
+    color: #2E3F5F;
+    border-radius: 100px;
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin-left: 255px;
+}
