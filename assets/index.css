@@ -68,7 +68,7 @@ body {
     border: none;
     height: 32px;
     margin-left: 180px;
-    
+
     width: 240px;
     margin-top: 10px;
 }
@@ -93,21 +93,21 @@ footer {
     padding-top: 80px;
 }
 
-.button-register{
-background: #001935;
-color: #2E3F5F;
-border-radius: 100px;
-border:none;
-width: 130px;
-height: 40px;
-margin-left: 240px;
+.button-register {
+    background: #001935;
+    color: #2E3F5F;
+    border-radius: 100px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    margin-left: 240px;
 }
 
 .button-back {
     background: #001935;
     color: #2E3F5F;
     border-radius: 100px;
-    border:none;
+    border: none;
     width: 100px;
     height: 30px;
     margin-left: 255px;
